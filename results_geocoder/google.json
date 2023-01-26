@@ -1,0 +1,143 @@
+{
+    "accuracy": "ROOFTOP",
+    "address": "43T Rue des Écoles, 75005 Paris, France",
+    "bbox": {
+      "northeast": [
+        48.8504299802915,
+        2.347385680291502
+      ],
+      "southwest": [
+        48.8477320197085,
+        2.344687719708498
+      ]
+    },
+    "city": "Paris",
+    "confidence": 9,
+    "country": "FR",
+    "county": "Département de Paris",
+    "housenumber": "43T",
+    "lat": 48.849081,
+    "lng": 2.3460367,
+    "ok": true,
+    "place": "ChIJ7T6aBedx5kcR4jcqCqsB7tQ",
+    "postal": "75005",
+    "quality": "street_address",
+    "raw": {
+      "address_components": [
+        {
+          "long_name": "43T",
+          "short_name": "43T",
+          "types": [
+            "street_number"
+          ]
+        },
+        {
+          "long_name": "Rue des Écoles",
+          "short_name": "Rue des Écoles",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "Paris",
+          "short_name": "Paris",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Département de Paris",
+          "short_name": "Département de Paris",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Île-de-France",
+          "short_name": "IDF",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "France",
+          "short_name": "FR",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "75005",
+          "short_name": "75005",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "43T Rue des Écoles, 75005 Paris, France",
+      "geometry": {
+        "location": {
+          "lat": 48.849081,
+          "lng": 2.3460367
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 48.8504299802915,
+            "lng": 2.347385680291502
+          },
+          "southwest": {
+            "lat": 48.8477320197085,
+            "lng": 2.344687719708498
+          }
+        }
+      },
+      "place_id": "ChIJ7T6aBedx5kcR4jcqCqsB7tQ",
+      "plus_code": {
+        "compound_code": "R8XW+JC Paris, France",
+        "global_code": "8FW4R8XW+JC"
+      },
+      "types": [
+        "street_address"
+      ],
+      "street_number": {
+        "long_name": "43T",
+        "short_name": "43T"
+      },
+      "route": {
+        "long_name": "Rue des Écoles",
+        "short_name": "Rue des Écoles"
+      },
+      "locality": {
+        "long_name": "Paris",
+        "short_name": "Paris"
+      },
+      "political": {
+        "long_name": "France",
+        "short_name": "FR"
+      },
+      "administrative_area_level_2": {
+        "long_name": "Département de Paris",
+        "short_name": "Département de Paris"
+      },
+      "administrative_area_level_1": {
+        "long_name": "Île-de-France",
+        "short_name": "IDF"
+      },
+      "country": {
+        "long_name": "France",
+        "short_name": "FR"
+      },
+      "postal_code": {
+        "long_name": "75005",
+        "short_name": "75005"
+      }
+    },
+    "state": "IDF",
+    "status": "OK",
+    "street": "Rue des Écoles"
+  }

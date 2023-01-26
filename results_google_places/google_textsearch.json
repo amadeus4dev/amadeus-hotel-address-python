@@ -1,0 +1,56 @@
+{
+    "html_attributions": [],
+    "results": [
+        {
+            "business_status": "OPERATIONAL",
+            "formatted_address": "41 Rue des Écoles, 75005 Paris, France",
+            "geometry": {
+                "location": {
+                    "lat": 48.8488924,
+                    "lng": 2.3471081
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 48.85029232989272,
+                        "lng": 2.348461579892723
+                    },
+                    "southwest": {
+                        "lat": 48.84759267010728,
+                        "lng": 2.345761920107278
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
+            "icon_background_color": "#909CE1",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet",
+            "name": "Villa Panthéon",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 5182,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/107459548290940104313\">Villa Panthéon</a>"
+                    ],
+                    "photo_reference": "AfLeUgOq7vqfytKMWIssG10uhxXu6XbXd_AHkXRGlDswX9_k8s1UL35kK-K0CcjUj8b0mrgbgdWYWV7HCWemX7zneDJp2MJQEmSWB_KmWLQxtjetzb43if90c8l0AkFBEjLNO4sR0ySKwZe___D5UsUe6qu5skxxkfuLQXJBhP4hikjseBSk",
+                    "width": 3454
+                }
+            ],
+            "place_id": "ChIJGyD_--Zx5kcRVR9P2KquU0A",
+            "plus_code": {
+                "compound_code": "R8XW+HR Paris, France",
+                "global_code": "8FW4R8XW+HR"
+            },
+            "rating": 4.2,
+            "reference": "ChIJGyD_--Zx5kcRVR9P2KquU0A",
+            "types": [
+                "lodging",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 391
+        }
+    ],
+    "status": "OK"
+}

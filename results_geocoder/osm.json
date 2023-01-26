@@ -1,0 +1,71 @@
+{
+    "accuracy": 0.001,
+    "address": "Collège de France, Rue des Écoles, Quartier de la Sorbonne, Paris 5e Arrondissement, Paris, Île-de-France, France métropolitaine, 75005, France",
+    "bbox": {
+      "northeast": [
+        48.8493733,
+        2.3462073
+      ],
+      "southwest": [
+        48.8492733,
+        2.3461073
+      ]
+    },
+    "city": "Paris",
+    "confidence": 10,
+    "country": "France",
+    "country_code": "fr",
+    "district": "Paris",
+    "icon": "https://nominatim.openstreetmap.org/ui/mapicons/transport_bus_stop2.p.20.png",
+    "importance": 0.001,
+    "lat": 48.8493233,
+    "lng": 2.3461573,
+    "ok": true,
+    "osm_id": 5979563854,
+    "osm_type": "node",
+    "place_id": 64118040,
+    "place_rank": 30,
+    "postal": "75005",
+    "quality": "bus_stop",
+    "raw": {
+      "place_id": 64118040,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 5979563854,
+      "boundingbox": [
+        "48.8492733",
+        "48.8493733",
+        "2.3461073",
+        "2.3462073"
+      ],
+      "lat": "48.8493233",
+      "lon": "2.3461573",
+      "display_name": "Collège de France, Rue des Écoles, Quartier de la Sorbonne, Paris 5e Arrondissement, Paris, Île-de-France, France métropolitaine, 75005, France",
+      "place_rank": 30,
+      "category": "highway",
+      "type": "bus_stop",
+      "importance": 0.001,
+      "icon": "https://nominatim.openstreetmap.org/ui/mapicons/transport_bus_stop2.p.20.png",
+      "address": {
+        "highway": "Collège de France",
+        "road": "Rue des Écoles",
+        "city_block": "Quartier de la Sorbonne",
+        "suburb": "Paris 5e Arrondissement",
+        "city_district": "Paris",
+        "city": "Paris",
+        "ISO3166-2-lvl6": "FR-75",
+        "state": "Île-de-France",
+        "ISO3166-2-lvl4": "FR-IDF",
+        "region": "France métropolitaine",
+        "postcode": "75005",
+        "country": "France",
+        "country_code": "fr"
+      }
+    },
+    "region": "Île-de-France",
+    "state": "Île-de-France",
+    "status": "OK",
+    "street": "Rue des Écoles",
+    "suburb": "Paris 5e Arrondissement",
+    "type": "bus_stop"
+  }
