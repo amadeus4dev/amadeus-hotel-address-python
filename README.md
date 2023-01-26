@@ -54,7 +54,7 @@ For this case apart from the latitude and longitude, we will also use the hotel 
 
 At the coordinates `48.8682, 2.33395` there is a hotel called `HOTEL VILLA PANTHEON`.
 
-### Text Search API
+#### Text Search API
 
 For this example we will call the [Text Search API](https://developers.google.com/maps/documentation/places/web-service/search-text) which allows the search of a specific place or type of place (such as a hotel) using a string of text. The service responds with a list of places matching the text string and any location bias that has been set.
 
