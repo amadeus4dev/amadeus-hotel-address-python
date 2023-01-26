@@ -1,7 +1,7 @@
 import requests
 import json
 
-google_key = 'YOUR_GOOGLE_KEY'
+google_key = 'GOOGLE_API_KEY'
 hotel_name = 'HOTEL VILLA PANTHEON'
 lat_lng = '48.84917,2.34615'
 

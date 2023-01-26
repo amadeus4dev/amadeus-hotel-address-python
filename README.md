@@ -1,3 +1,5 @@
+## Get an address from latitude/longitude
+
 In this tutorial we will show you how you can translate a latitude/longitude location into a readable address using Python. We will use the method of `Reverse Geocoding` and then we will use the `Google Places API`. 
 
 ### Method 1: Reverse Geocoding
@@ -8,7 +10,7 @@ For this tutorial we explore two providers and make their requests using the [Ge
 
 Before moving forward make sure you install the library in your environment with `pip install geocoder`. 
 
-### Google Geolocation API
+#### Google Geolocation API
 
 The [Google Geolocation API](https://developers.google.com/maps/documentation/geolocation/overview) uses data from various sources, such cell towers and Wi-Fi access points to determine the address of a geolocation. 
 
@@ -29,7 +31,7 @@ response = geocoder.google(lat_lng, method='reverse')
 print(response.json['address'])
 ```
 
-### OpenStreetMap 
+#### OpenStreetMap 
 
 [OpenStreetMap](https://www.openstreetmap.org/#map=6/40.028/-2.417) is an open-source project that relies on contributions from volunteers to create and maintain a free map of the world. Its data is primarily collected by volunteers through GPS devices and aerial imagery.
 
@@ -51,6 +53,8 @@ The [Google Places API](https://developers.google.com/maps/documentation/places/
 For this case apart from the latitude and longitude, we will also use the hotel name returned by the Hotel Search API. That will make the request more specific to ensure that we will return one result only. 
 
 At the coordinates `48.8682, 2.33395` there is a hotel called `HOTEL VILLA PANTHEON`.
+
+### Text Search API
 
 For this example we will call the [Text Search API](https://developers.google.com/maps/documentation/places/web-service/search-text) which allows the search of a specific place or type of place (such as a hotel) using a string of text. The service responds with a list of places matching the text string and any location bias that has been set.
 
@@ -76,6 +80,7 @@ print(json_response['results'][0]['formatted_address'])
 
 ```
 
+#### Nearby Search API
 
 You can also call the [Nearby Places API](https://developers.google.com/maps/documentation/places/web-service/search-nearby) to achieve the same functionality. This API allows you to search for places within a specified area around a set of coordinates.
 
